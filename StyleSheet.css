@@ -1,0 +1,77 @@
+body {
+    background-color: #000000;
+    background-image: url('https://i.imgur.com/gl9cdAr.jpg');
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.img {
+    max-width: 600px;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    color:white;
+    }
+
+h2 {
+    font-size: 3vw;
+    color: white;
+}
+
+html {
+    height: 100%
+    }
+
+.big {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 3vw;
+    margin: 0.7vw 0.3vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    }
+
+
+span:before { 
+        content: "Gay"; 
+        animation: rainbow 5s linear 0s infinite;
+        text-align: center;
+        font-size: 5vw;
+             } 
+
+@keyframes rainbow { 
+
+    0% {
+    color: #6666ff;
+        }
+
+  10% {
+    color: #0099ff;
+     }
+
+  50% {
+    color: #00ff00;
+     }
+
+  75% {
+    color: #ff3399;
+     }
+
+  100% {
+    color: #6666ff;
+     }
+} 

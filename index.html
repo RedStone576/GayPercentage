@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="StyleSheet.css">
+
+    <title>How Gay Are You</title>
+    <link rel = "icon" href = "https://www.flaticon.com/svg/static/icons/svg/3942/3942073.svg" type = "image/x-icon">
+  </head>
+ <body>
+   <div class="img"></div>
+    <h1 class="big">How <span></span> Are You?</h1>
+    <button class="button" onclick="myFunction()">Click Me UwU</button>
+    <h2 id="gay"></h2>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("gay")
+        x.innerHTML = Math.floor((Math.random() * 100) + 1) + "% Of Gayness";
+      }
+      </script>
+ </body>
+</html>
